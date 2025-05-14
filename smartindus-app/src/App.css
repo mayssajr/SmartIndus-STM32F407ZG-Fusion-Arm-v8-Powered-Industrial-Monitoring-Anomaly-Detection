@@ -1,0 +1,209 @@
+/* App.css - Style pour l'application SmartIndus */
+
+:root {
+  --primary-color: #0056b3;
+  --accent-color: #00a8cc;
+  --text-color: #333;
+  --background-color: #f8f9fa;
+  --card-background: #ffffff;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --alert-color: #dc3545;
+  --alert-bg: rgba(220, 53, 69, 0.1);
+  --success-color: #28a745;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.logo span {
+  color: var(--accent-color);
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.measurement-card {
+  background-color: var(--card-background);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px var(--shadow-color);
+  padding: 25px;
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 0 auto;
+}
+
+.measurement-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px var(--shadow-color);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.current-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-align: center;
+  margin: 20px 0;
+}
+
+.current-value.alert {
+  color: var(--alert-color);
+  animation: pulse-alert 1s infinite;
+}
+
+.loading {
+  color: #888;
+  font-style: italic;
+}
+
+.status-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.indicator-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #4CAF50;
+  margin-right: 8px;
+  animation: pulse 2s infinite;
+}
+
+.indicator-dot.disconnected {
+  background-color: #ccc;
+  animation: none;
+}
+
+.status-text {
+  font-size: 0.9rem;
+  color: #4CAF50;
+}
+
+/* Styles pour l'alerte */
+.alert-message {
+  background-color: var(--alert-bg);
+  border: 1px solid var(--alert-color);
+  border-radius: 8px;
+  padding: 12px;
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--alert-color);
+  font-weight: bold;
+  text-align: center;
+}
+
+.alert-icon {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.email-status {
+  font-size: 0.8rem;
+  margin-top: 8px;
+  color: var(--success-color);
+  background-color: rgba(40, 167, 69, 0.1);
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+.threshold-info {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px dashed #eee;
+  padding-top: 15px;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 0.6;
+    transform: scale(0.9);
+  }
+}
+
+@keyframes pulse-alert {
+  0% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    font-size: 2rem;
+  }
+ 
+  .current-value {
+    font-size: 2rem;
+  }
+}

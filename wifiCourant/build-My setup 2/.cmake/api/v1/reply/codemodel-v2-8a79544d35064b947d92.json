@@ -1,0 +1,138 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "lib_wifiesp",
+					"jsonFile" : "directory-lib_wifiesp-Debug-d1e9e370bba7997fefb1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib_wifiesp",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "lib_hallcurrent5",
+					"jsonFile" : "directory-lib_hallcurrent5-Debug-eb26fbcaab1db9c1d427.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "lib_hallcurrent5",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "wifiCourant",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "lib_wifiesp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "lib_hallcurrent5",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "lib_hallcurrent5::@57d6dac16c7c06e25faf",
+					"jsonFile" : "target-lib_hallcurrent5-Debug-6ced9a66a86a96797b7c.json",
+					"name" : "lib_hallcurrent5",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lib_wifiesp::@46db5f2048533134e1bb",
+					"jsonFile" : "target-lib_wifiesp-Debug-e3156eacdafdf3a32221.json",
+					"name" : "lib_wifiesp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wifiCourant::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wifiCourant-Debug-9aa216a40595b984109d.json",
+					"name" : "wifiCourant",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/lenovo/Documents/MIKROE/Projects/wifiCourant/build-My setup 2",
+		"source" : "C:/Users/lenovo/Documents/MIKROE/Projects/wifiCourant"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

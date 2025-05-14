@@ -1,0 +1,9 @@
+C:/Users/lenovo/Documents/MIKROE/Projects/wifiCourant/build-My setup 2/CMakeFiles/wifiCourant.dir
+C:/Users/lenovo/Documents/MIKROE/Projects/wifiCourant/build-My setup 2/CMakeFiles/edit_cache.dir
+C:/Users/lenovo/Documents/MIKROE/Projects/wifiCourant/build-My setup 2/CMakeFiles/rebuild_cache.dir
+C:/Users/lenovo/Documents/MIKROE/Projects/wifiCourant/build-My setup 2/lib_wifiesp/CMakeFiles/edit_cache.dir
+C:/Users/lenovo/Documents/MIKROE/Projects/wifiCourant/build-My setup 2/lib_wifiesp/CMakeFiles/lib_wifiesp.dir
+C:/Users/lenovo/Documents/MIKROE/Projects/wifiCourant/build-My setup 2/lib_wifiesp/CMakeFiles/rebuild_cache.dir
+C:/Users/lenovo/Documents/MIKROE/Projects/wifiCourant/build-My setup 2/lib_hallcurrent5/CMakeFiles/lib_hallcurrent5.dir
+C:/Users/lenovo/Documents/MIKROE/Projects/wifiCourant/build-My setup 2/lib_hallcurrent5/CMakeFiles/edit_cache.dir
+C:/Users/lenovo/Documents/MIKROE/Projects/wifiCourant/build-My setup 2/lib_hallcurrent5/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,7 @@
+# ninja log v6
+82	597	7683392061027198	lib_hallcurrent5/CMakeFiles/lib_hallcurrent5.dir/src/hallcurrent5.emcl	78fdc6245b3c0460
+70	733	7683392060906255	lib_wifiesp/CMakeFiles/lib_wifiesp.dir/src/wifiesp.emcl	80b98a606a195d10
+617	879	7683392066374904	lib_hallcurrent5/liblib_hallcurrent5.a	eee3af3c570f8194
+25	776	7689426756718074	CMakeFiles/wifiCourant.dir/main.emcl	67cc85a58198ce54
+733	875	7683392067536623	lib_wifiesp/liblib_wifiesp.a	d7d66bf570d6c05
+778	2714	7689426764244574	wifiCourant.hex	f391d3dddd445682
