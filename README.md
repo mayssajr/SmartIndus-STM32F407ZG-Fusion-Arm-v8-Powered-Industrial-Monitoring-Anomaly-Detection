@@ -4,4 +4,4 @@
 <img width="1920" height="1080" alt="interface2" src="https://github.com/user-attachments/assets/014b4a26-55b8-413f-9577-25a39adff563" />
 <img width="1920" height="1080" alt="interface3" src="https://github.com/user-attachments/assets/70a182a0-6b56-4aa6-9b45-5b91503838c4" />
 
-![IMG_2186 (1)](https://github.com/user-attachments/assets/c7d58e76-2a6a-4e9a-9049-db0a057b1009)
+
